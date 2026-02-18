@@ -9,7 +9,7 @@ Plugin marketplace for [claude-workflow](https://github.com/ParkerM2/create-clau
 /plugin marketplace add ParkerM2/claude-workflow-marketplace
 
 # 2. Install the plugin
-/plugin install claude-workflow@claude-workflow-marketplace
+/plugin install claude-workflow@ParkerM2-claude-workflow-marketplace
 ```
 
 ## Available Plugins
