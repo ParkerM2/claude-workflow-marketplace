@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Multi-agent workflow orchestration and PR review plugins for Claude Code",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   "plugins": [
     {
@@ -15,7 +15,7 @@
         "url": "https://github.com/ParkerM2/create-claude-workflow.git"
       },
       "description": "Multi-agent workflow orchestration — branch-per-task development with automated QA, codebase guardian, crash recovery, and 11 workflow commands",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "strict": true
     },
     {
@@ -27,6 +27,16 @@
       "description": "GitHub PR management suite — listing, filtering, multi-agent parallel review with 6 specialized agents, customizable teams, and claude-workflow integration",
       "version": "1.0.0",
       "strict": true
+    },
+    {
+      "name": "claude-agent-manager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ParkerM2/claude-agent-manager.git"
+      },
+      "description": "Browser dashboard for .claude folder contents, agent activity, and workflow tracking",
+      "version": "0.1.0",
+      "strict": false
     }
   ]
 }
