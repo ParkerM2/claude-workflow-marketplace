@@ -16,13 +16,13 @@ Plugin marketplace for [claude-workflow](https://github.com/ParkerM2/create-clau
 
 | Plugin | Description |
 |--------|-------------|
-| `claude-workflow` | Multi-agent workflow orchestration -- branch-per-task development with automated QA, codebase guardian, crash recovery, and 14 workflow commands |
+| `claude-workflow` | Multi-agent workflow orchestration -- Full Agent Teams with automated QA, codebase guardian, crash recovery, and 9 workflow commands |
 
 ## What You Get
 
-- **14 slash commands**: `/implement-feature`, `/resume-feature`, `/hotfix`, `/refactor`, `/review-pr`, `/generate-tests`, `/create-feature-plan`, `/discover-agents`, `/scaffold-agent`, `/audit-agents`, `/audit-performance`, `/status`, `/track`, `/claude-new`
+- **9 slash commands**: `/agent-team`, `/new-plan`, `/deep-research`, `/resume`, `/status`, `/settings`, `/track`, `/setup-workflow`, `/connect-atlassian`
 - **3 specialist agents**: Team Leader, QA Reviewer, Codebase Guardian
-- **6 hooks**: branch guard, config guard, destructive command guard, session start, file tracker, git tracker
+- **10 hooks**: session-start, compact-reinject, safety-guard, workflow-enforcer, init-gate, config-guard, tracking-emitter, teammate-quality, task-validator, proof-ledger
 - **2 skills**: workflow setup, workflow usage
 
 ## Documentation
